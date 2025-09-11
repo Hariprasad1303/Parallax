@@ -51,16 +51,16 @@ header{
 
 }
 .parallax1{
-    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images5.jpg');
 }
 .parallax2{
-    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images6.jpg');
 }
 .parallax3{
-    background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images7.jpg');
 }
 .parallax4{
-    background-image: url('https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images8.jpg');
 }
 section.content{
     background-color: #f4f4f4;
@@ -94,7 +94,7 @@ p{
 }
 .gallery{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap:2rem;
     justify-content: center;
 }
@@ -171,7 +171,6 @@ form{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     border-radius: 1rem;
-    border: 0.1px solid black;
     height:auto;
     width:30rem;
     margin:2rem auto;
